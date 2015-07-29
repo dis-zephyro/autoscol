@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(../fonts/calibri/calibri.css);
+/* Helper classes
+   ========================= */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+.invisible {
+  visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.clearfix:after,
+.container:after {
+  clear: both;
+}
+.clearfix,
+.container {
+  *zoom: 1;
+}
+.img-responsive {
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+/* Base styles
+   ========================= */
+* {
+  webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+html {
+  font-size: 14px;
+  line-height: 1.64285;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header {
+  height: 390px;
+  background: url("../img/header_bg.jpg") top center no-repeat;
+}
+.header .header-top {
+  width: 100%;
+  height: 63px;
+  position: relative;
+  text-align: center;
+}
+.header .header-top .header-logo {
+  top: 8px;
+  left: 33px;
+  width: 164px;
+  height: 41px;
+  cursor: pointer;
+  position: absolute;
+  background: url("../img/logo.png") 0 0 no-repeat;
+}
+.header .header-phone {
+  width: 600px;
+  color: #444444;
+  font-size: 32px;
+  line-height: 33px;
+  padding: 15px 14px;
+  display: inline-block;
+  font-family: 'Calibri';
+}
+.header .header-phone .code {
+  color: #a86b00;
+  font-size: 27px;
+}
+/* Typography
+   ========================= */
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+h1,
+h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+p {
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.text-right {
+  text-align: center;
+}

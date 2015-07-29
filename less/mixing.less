@@ -1,0 +1,101 @@
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow;
+  -moz-box-shadow: @shadow;
+  box-shadow: @shadow;
+}
+
+
+.border-radius( @radius: 5px) {
+  -webkit-border-radius: @arguments;
+  -moz-border-radius: @arguments;
+  border-radius: @arguments;
+}
+
+.transition (@value) {
+  -webkit-transition: @value;
+  -moz-transition: @value;
+  -o-transition: @value;
+  transition: @value;
+}
+
+/* Helper classes
+   ========================= */
+
+.ir {
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	/* IE 6/7 fallback */
+	*text-indent: -9999px;
+}
+
+.ir:before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 150%;
+}
+
+.hidden {
+	display: none !important;
+	visibility: hidden;
+}
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after,
+.container:after {
+	clear: both;
+}
+
+.clearfix,
+.container {
+	*zoom: 1;
+}
+
+.img-responsive {
+	display: block;
+	width: 100% \9;
+	max-width: 100%;
+	height: auto;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.text-right {
+	text-align: right !important;
+}
