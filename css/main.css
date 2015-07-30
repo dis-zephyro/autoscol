@@ -82,7 +82,7 @@ button,
 input,
 select,
 textarea {
-  color: #222;
+  color: #444;
 }
 html {
   font-size: 14px;
@@ -163,20 +163,20 @@ body {
   background: rgba(255, 255, 255, 0.43);
 }
 .header .header-nav ul {
-  margin-bottom: 25px;
+  margin-bottom: 28px;
 }
 .header .header-nav li {
-  height: 46px;
-  background: url("../img/header_nav_bg.png") 0 0 no-repeat;
+  height: 45px;
+  background: url("../img/header_nav_bg.png") 0 -1px no-repeat;
 }
 .header .header-nav li a {
   color: #444;
   width: 100%;
-  height: 46px;
+  height: 45px;
   outline: none;
   font-size: 19px;
   line-height: 20px;
-  padding: 13px 16px;
+  padding: 12px 16px;
   display: inline-block;
   text-decoration: none;
 }
@@ -184,7 +184,7 @@ body {
   text-decoration: none;
 }
 .header .header-nav li:hover {
-  background-position: 0 -46px;
+  background-position: 0 -47px;
 }
 .header .header-nav .leave-request {
   color: #fff;
@@ -259,8 +259,8 @@ body {
   top: -8px;
 }
 .header .header-service a.item2 {
-  top: 15px;
-  right: 40px;
+  top: 20px;
+  right: 30px;
   width: 205px;
   height: 62px;
   position: absolute;
@@ -274,8 +274,8 @@ body {
   top: -8px;
 }
 .header .header-service a.item3 {
-  top: 180px;
-  left: 480px;
+  top: 185px;
+  left: 495px;
   width: 208px;
   height: 42px;
   position: absolute;
@@ -288,6 +288,7 @@ body {
 ============================ */
 .topnav {
   height: 50px;
+  margin-bottom: 40px;
   background: #f9bd6c;
 }
 .topnav ul {
@@ -319,6 +320,7 @@ body {
   text-decoration: none;
 }
 .topnav a:hover {
+  text-decoration: none;
   background-color: #dea860;
 }
 .topnav a:hover:before {
@@ -393,20 +395,21 @@ body {
 /* Action block
 ============================ */
 .action {
-  margin-bottom: 15px;
+  margin-top: -20px;
+  margin-bottom: 8px;
 }
 .action .action-title {
   color: #2e2e2e;
   font-size: 46px;
   line-height: 80px;
   position: relative;
-  margin-bottom: 24px;
-  font-family: 'Calibri';
+  margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 .action .action-title:before {
   left: 0;
-  bottom: 0;
-  height: 1px;
+  bottom: 2px;
+  height: 2px;
   width: 147px;
   content: " ";
   position: absolute;
@@ -416,7 +419,7 @@ body {
   width: 100%;
   height: 183px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 .action .action-slider .action-item {
   width: 100%;
@@ -433,12 +436,12 @@ body {
   font-weight: 700;
   line-height: 36px;
   position: absolute;
-  padding: 30px 70px 0 600px;
+  padding: 30px 40px 0 600px;
 }
 .action .action-slider .action-content .slide-title {
-  font-size: 27px;
+  font-size: 28px;
   line-height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 .action .action-slider .slick-dots {
@@ -596,6 +599,219 @@ body {
   position: absolute;
   background: url("../img/sprite.png") -327px -31px no-repeat;
 }
+.content-service .service-list {
+  padding: 0;
+  list-style: none;
+  position: relative;
+  margin: 0 0 -20px 0;
+}
+.content-service .service-list li {
+  z-index: 20;
+  font-size: 14px;
+  line-height: 18px;
+  position: relative;
+  text-align: justify;
+}
+.content-service .service-list li.item1 {
+  height: 320px;
+  margin-top: -95px;
+  padding-top: 90px;
+  background: url("../img/bmw.png") 40px 5px no-repeat;
+}
+.content-service .service-list li.item1 .service-text {
+  padding: 0 20px;
+  margin: 0 40px 100px 297px;
+  border-left: 2px solid #f6a636;
+}
+.content-service .service-list li.item2 {
+  height: 339px;
+  padding-top: 55px;
+  background: url("../img/volkswagen.png") right 5px no-repeat;
+}
+.content-service .service-list li.item2 .service-text {
+  padding: 0 20px;
+  margin: 0 355px 100px 40px;
+  border-right: 2px solid #f6a636;
+}
+.content-service .service-list li.item3 {
+  height: 320px;
+  padding-top: 80px;
+  margin-top: -50px;
+  background: url("../img/porshe.png") 50px 0 no-repeat;
+}
+.content-service .service-list li.item3 .service-text {
+  padding: 0 20px;
+  margin: 0 40px 100px 297px;
+  border-left: 2px solid #f6a636;
+}
+.portfolio {
+  height: 248px;
+  padding-top: 5px;
+  background: url("../img/work_bg.jpg") top center no-repeat;
+}
+.portfolio h2 {
+  color: #2b2a29;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 17px;
+  padding-bottom: 5px;
+  background: url("../img/title-line.png") bottom center no-repeat;
+}
+.portfolio .portfolio-slider {
+  padding: 0;
+  height: 165px;
+  margin: 0 22px;
+  overflow: hidden;
+  list-style: none;
+}
+.portfolio .portfolio-slider li {
+  float: left;
+  width: 275px;
+  margin: 0 7px;
+}
+.portfolio .portfolio-slider li a {
+  display: block;
+  cursor: pointer;
+}
+.portfolio .portfolio-nav {
+  top: 140px;
+  width: 16px;
+  height: 19px;
+  cursor: pointer;
+  position: absolute;
+  background: url("../img/sprite.png") no-repeat;
+}
+.portfolio .portfolio-nav.prev {
+  left: 20px;
+  background-position: -327px -63px;
+}
+.portfolio .portfolio-nav.next {
+  right: 20px;
+  background-position: -349px -63px;
+}
+.contact {
+  padding: 0;
+  list-style: none;
+  margin: 0 0 50px 0;
+}
+.contact li {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact li #map {
+  width: 100%;
+  height: 320px;
+  margin-bottom: 50px;
+  border: 1px solid #e9e5dc;
+}
+.contact li .contact-title {
+  color: #a87f58;
+  min-height: 24px;
+  padding-left: 40px;
+  position: relative;
+  display: inline-block;
+}
+.contact li .contact-title:before {
+  top: 0;
+  left: 0;
+  content: " ";
+  position: absolute;
+  background: url("../img/sprite.png") no-repeat;
+}
+.contact li.address .contact-title:before {
+  top: 4px;
+  width: 22px;
+  height: 22px;
+  background-position: -380px 0;
+}
+.contact li.phone .contact-title:before {
+  top: 4px;
+  width: 22px;
+  height: 22px;
+  background-position: -380px -60px;
+}
+.contact li.email .contact-title:before {
+  width: 23px;
+  height: 24px;
+  background-position: -380px -31px;
+}
+.contact li.worktime .contact-title:before {
+  top: 5px;
+  width: 23px;
+  height: 23px;
+  background-position: -380px -87px;
+}
+.cat-tabs {
+  min-height: 550px;
+  background: url("../img/cat_tabs_bg.jpg") 50% 40px no-repeat;
+}
+.cat-tabs > ul {
+  margin: 0;
+  padding: 0;
+  height: 330px;
+  list-style: none;
+  position: relative;
+}
+.cat-tabs > ul li {
+  position: absolute;
+}
+.cat-tabs > ul li a {
+  width: 100%;
+  height: 100%;
+  color: #908e8e;
+  display: block;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 30px;
+  text-decoration: none;
+  background: url("../img/sprite.png") no-repeat;
+}
+.cat-tabs > ul li a:hover {
+  color: #ffa854;
+  text-decoration: none;
+}
+.cat-tabs > ul li.item1 {
+  top: 52px;
+  left: 159px;
+  width: 320px;
+  height: 58px;
+}
+.cat-tabs > ul li.item1 a {
+  padding: 20px 0 0 10px;
+  background-position: 0 -432px;
+}
+.cat-tabs > ul li.item1 a:hover {
+  background-position: 0 -501px;
+}
+.cat-tabs > ul li.item2 {
+  top: 0px;
+  left: 625px;
+  width: 425px;
+  height: 70px;
+}
+.cat-tabs > ul li.item2 a {
+  padding: 0 0 0 160px;
+  background-position: 0 -841px;
+}
+.cat-tabs > ul li.item2 a:hover {
+  background-position: 0 -912px;
+}
+.cat-tabs > ul li.item3 {
+  top: 285px;
+  left: 65px;
+  width: 425px;
+  height: 70px;
+}
+.cat-tabs > ul li.item3 a {
+  padding: 0 0 0 20px;
+  background-position: 0 -710px;
+}
+.cat-tabs > ul li.item3 a:hover {
+  background-position: 0 -780px;
+}
 /* Button % Form
 ============================ */
 .btn {
@@ -647,7 +863,14 @@ h2 {
 }
 p {
   padding: 0;
-  margin: 0 0 10px 0;
+  margin: 0 0 20px 0;
+}
+a {
+  color: #c87401;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 nav ul {
   margin: 0;
@@ -662,4 +885,7 @@ nav ul {
 }
 .text-orange {
   color: #ca7909;
+}
+.fs24 {
+  font-size: 24px;
 }
