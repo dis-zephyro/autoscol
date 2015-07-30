@@ -10,3 +10,14 @@ $('.form-request-success .btn').click(function(){
     $('.form-request-success').hide();
     $('.form-request-start').show();
 });
+
+
+/* Action Slider */
+
+$('.action-slider').slick({
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1
+});

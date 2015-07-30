@@ -10,18 +10,16 @@
             <span class="header-phone"><span class="code">+7 (926)</span>  169-23-13</span>
         </div>
         <div class="clearfix">
-            <div class="header-box">
-                <nav class="header-nav">
-                    <ul>
-                        <li><a href="#">Защитные пленки</a></li>
-                        <li><a href="#">Кузовные работы</a></li>
-                        <li><a href="#">Тонирование</a></li>
-                        <li><a href="#">Полировка</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                    <a href="#" class="leave-request">Отправить заявку</a>
-                </nav>
-            </div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#">Защитные пленки</a></li>
+                    <li><a href="#">Кузовные работы</a></li>
+                    <li><a href="#">Тонирование</a></li>
+                    <li><a href="#">Полировка</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <a href="#form-request-block" class="leave-request">Отправить заявку</a>
+            </nav>
             <div class="header-service clearfix">
                 <a class="item1" href="#"><span>Защитная пленка</span></a>
                 <a class="item2" href="#"><span>Тонирование</span></a>
