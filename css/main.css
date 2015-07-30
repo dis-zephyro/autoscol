@@ -344,11 +344,22 @@ body {
 }
 .form-request-block .form-request {
   width: 830px;
-  height: 269px;
   margin: 0 auto;
   text-align: center;
   padding: 20px 142px 0 142px;
   background: url("../img/form_request.png") top center no-repeat;
+}
+.form-request-block .form-request.form-request-start {
+  height: 269px;
+}
+.form-request-block .form-request.form-request-success {
+  height: 170px;
+  display: none;
+  margin-top: 55px;
+  background-position: 50% -55px;
+}
+.form-request-block .form-request.form-request-success p {
+  margin-bottom: 20px;
 }
 .form-request-block .form-request .form-request-title {
   color: #000;
@@ -360,6 +371,7 @@ body {
 }
 .form-request-block .form-request p {
   color: #31343e;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 .form-request-block .form-request .form-group {
@@ -482,6 +494,7 @@ body {
 .btn {
   border: none;
   outline: none;
+  cursor: pointer;
   font-size: 20px;
   font-weight: 600;
   line-height: 20px;
