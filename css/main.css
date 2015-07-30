@@ -339,7 +339,48 @@ body {
 ============================ */
 .form-request-block {
   height: 440px;
+  padding-top: 80px;
   background: url("../img/form_request_bg.jpg") top center no-repeat;
+}
+.form-request-block .form-request {
+  width: 830px;
+  height: 269px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 142px 0 142px;
+  background: url("../img/form_request.png") top center no-repeat;
+}
+.form-request-block .form-request .form-request-title {
+  color: #000;
+  font-size: 31px;
+  line-height: 31px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.form-request-block .form-request p {
+  color: #31343e;
+  margin-bottom: 10px;
+}
+.form-request-block .form-request .form-group {
+  margin-bottom: 18px;
+}
+.form-request-block .form-request .form-control {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #909297;
+  font-size: 19px;
+  background: #fff;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 5px 20px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
 }
 /* Footer
 ============================ */
@@ -435,6 +476,37 @@ body {
 }
 .footer .footer-social a.li {
   background-position: -218px 0;
+}
+/* Button % Form
+============================ */
+.btn {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 10px 80px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.btn:active {
+  top: 1px;
+  position: relative;
+}
+.btn.btn-gray {
+  color: #fff;
+  background: #31343e;
+}
+.btn.btn-gray:hover {
+  background: #686a71;
 }
 /* Typography
    ========================= */
