@@ -19,7 +19,12 @@
     </section>
 
     <!-- Footer -->
+    <?php include('pages/form-request.php') ?>
+    <!-- End of Footer -->
+
+    <!-- Footer -->
     <?php include('pages/footer.php') ?>
     <!-- End of Footer -->
+
 </body>
 </html>

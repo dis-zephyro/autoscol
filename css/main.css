@@ -335,6 +335,12 @@ body {
   position: absolute;
   background: #ad8b5c;
 }
+/* Form Request
+============================ */
+.form-request-block {
+  height: 440px;
+  background: url("../img/form_request_bg.jpg") top center no-repeat;
+}
 /* Footer
 ============================ */
 .footer {
