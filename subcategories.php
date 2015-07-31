@@ -38,30 +38,45 @@
             </div>
             <ul class="result">
                 <li>
-                    <div class="result-image">
-                        <img class="result-up" src="img/portfolio/result01_up.jpg" alt="">
-                        <div class="result-after">
+                    <figure class="result-image">
+                        <img src="img/portfolio/result01_up.jpg" alt="">
+                        <span class="cd-image-label" data-type="original">До</span>
+
+                        <div class="cd-resize-img"> <!-- the resizable image on top -->
                             <img src="img/portfolio/result01_after.jpg" alt="">
+                            <span class="cd-image-label" data-type="modified">После</span>
                         </div>
-                    </div>
+
+                        <span class="cd-handle"></span>
+                    </figure>
                     <div class="result-title">Специальный состав клеящего слоя</div>
                 </li>
                 <li>
-                    <div class="result-image">
-                        <img class="result-up" src="img/portfolio/result02_up.jpg" alt="">
-                        <div class="result-after">
+                    <figure class="result-image">
+                        <img src="img/portfolio/result02_up.jpg" alt="">
+                        <span class="cd-image-label" data-type="original">До</span>
+
+                        <div class="cd-resize-img"> <!-- the resizable image on top -->
                             <img src="img/portfolio/result02_after.jpg" alt="">
+                            <span class="cd-image-label" data-type="modified">После</span>
                         </div>
-                    </div>
+
+                        <span class="cd-handle"></span>
+                    </figure>
                     <div class="result-title">Защитная антигравийная пленка на автомобиль</div>
                 </li>
                 <li>
-                    <div class="result-image">
-                        <img class="result-up" src="img/portfolio/result03_up.jpg" alt="">
-                        <div class="result-after">
+                    <figure class="result-image">
+                        <img src="img/portfolio/result03_up.jpg" alt="">
+                        <span class="cd-image-label" data-type="original">До</span>
+
+                        <div class="cd-resize-img"> <!-- the resizable image on top -->
                             <img src="img/portfolio/result03_after.jpg" alt="">
+                            <span class="cd-image-label" data-type="modified">После</span>
                         </div>
-                    </div>
+
+                        <span class="cd-handle"></span>
+                    </figure>
                     <div class="result-title">Это прочная пленка</div>
                 </li>
             </ul>
