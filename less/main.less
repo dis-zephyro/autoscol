@@ -827,9 +827,9 @@ body {
 
 }
 
-
 .cat-tabs {
-	min-height: 550px;
+	min-height: 520px;
+	margin-bottom: 30px;
 	background: url("../img/cat_tabs_bg.jpg") 50% 40px no-repeat;
 
 	> ul {
@@ -845,6 +845,7 @@ body {
 			a {
 				width: 100%;
 				height: 100%;
+				outline: none;
 				color: #908e8e;
 				display: block;
 				cursor: pointer;
@@ -856,6 +857,11 @@ body {
 				&:hover {
 					color: #ffa854;
 					text-decoration: none;
+				}
+
+				span {
+					position: relative;
+					display: inline-block;
 				}
 			}
 
@@ -892,17 +898,53 @@ body {
 			}
 
 			&.item3 {
-				top: 285px;
+				top: 185px;
 				left: 65px;
 				width: 425px;
 				height: 70px;
 
 				a {
-					padding: 0 0 0 20px;
+					padding: 20px 0 0 10px;
 					background-position: 0 -710px;
 
 					&:hover {
-						background-position: 0 -780px;
+						background-position: 0 -781px;
+					}
+				}
+			}
+
+			&.item4 {
+				top: 95px;
+				left: 730px;
+				width: 370px;
+				height: 70px;
+
+				a {
+					padding: 20px 10px 0 160px;
+					background-position: 0 -990px;
+
+					span {
+						top: -10px;
+					}
+
+					&:hover {
+						background-position: 0 -1060px;
+					}
+				}
+			}
+
+			&.item5 {
+				top: 170px;
+				left: 825px;
+				width: 350px;
+				height: 60px;
+
+				a {
+					padding: 20px 10px 0 70px;
+					background-position: 0 -570px;
+
+					&:hover {
+						background-position: 0 -640px;
 					}
 				}
 			}
@@ -918,14 +960,13 @@ body {
 	border: none;
 	outline: none;
 	cursor: pointer;
-	font-size: 20px;
 	font-weight: 600;
 	line-height: 20px;
-	padding: 10px 80px;
+
 	text-align: center;
+	position: relative;
 	display: inline-block;
 	text-decoration: none;
-	text-transform: uppercase;
 	.border-radius(4px);
 
 	&:hover {
@@ -939,10 +980,37 @@ body {
 
 	&.btn-gray {
 		color: #fff;
+		font-size: 20px;
 		background: #31343e;
+		text-transform: uppercase;
 
 		&:hover {
 			background: #686a71;
+		}
+	}
+
+	&.btn-orange {
+		color: #fff;
+		font-size: 18px;
+		padding: 8px 60px 8px 18px;
+		background: #ee9a1a;
+		.border-radius(4px);
+		text-align: left;
+
+		&:before {
+			top: 16px;
+			z-index: 10;
+			right: 18px;
+			width: 22px;
+			height: 8px;
+			content: " ";
+			position: absolute;
+			background: url("../img/sprite.png") -349px 0;
+		}
+
+		&:hover {
+			background: #f18016;
+			text-decoration: none;
 		}
 	}
 }

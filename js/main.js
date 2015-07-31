@@ -40,6 +40,11 @@ $('.next').click(function(){
 });
 
 
+/* Category Tabs */
+
+$('.cat-tabs').tabs();
+
+
 // Подключние Яндекс-Карты
 
 ymaps.ready(init);
