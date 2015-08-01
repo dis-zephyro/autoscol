@@ -35,5 +35,6 @@
 <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script src="js/vendor/jquery-ui/jquery-ui.min.js"></script>
 <script src="js/vendor/jquery.fancybox/jquery.fancybox.pack.js"></script>
+<script src="js/vendor/mb2comparison/mb2comparison.js"></script>
 <script src="js/vendor/slick/slick.min.js"></script>
 <script src="js/main.js"></script>

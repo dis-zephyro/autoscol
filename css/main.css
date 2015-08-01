@@ -583,6 +583,7 @@ body {
   height: 103px;
   color: #2b2a29;
   font-size: 30px;
+  padding-top: 0;
   line-height: 70px;
   text-align: center;
   margin-bottom: 35px;
@@ -655,6 +656,7 @@ body {
 .portfolio h2 {
   color: #2b2a29;
   font-size: 30px;
+  padding-top: 0;
   line-height: 45px;
   text-align: center;
   margin-bottom: 17px;
@@ -937,6 +939,7 @@ body {
 .btn.btn-gray {
   color: #fff;
   font-size: 20px;
+  padding: 10px 50px;
   background: #31343e;
   text-transform: uppercase;
 }

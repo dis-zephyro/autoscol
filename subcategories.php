@@ -38,47 +38,69 @@
             </div>
             <ul class="result">
                 <li>
-                    <figure class="result-image">
-                        <img src="img/portfolio/result01_up.jpg" alt="">
-                        <span class="cd-image-label" data-type="original">До</span>
+                    <div class="result-image">
+                        <div class="mb2comparison mb2comparison146">
+                            <div class="mb2comparison-compare-wrapper mb2comparison-compare-vertical">
+                                <div class="mb2comparison-compare mb2comparison-compare-container" data-orientation="vertical" data-offset="0.5">
+                                    <img class="mb2comparison-compare-img mb2comparison-compare-before" src="img/portfolio/result01_up.jpg" alt="">
+                                    <img class="mb2comparison-compare-img mb2comparison-compare-after" src="img/portfolio/result01_after.jpg" alt="">
+                                    <div class="mb2comparison-compare-description">
+                                        <span class="mb2comparison-compare-after-label">до</span>
 
-                        <div class="cd-resize-img"> <!-- the resizable image on top -->
-                            <img src="img/portfolio/result01_after.jpg" alt="">
-                            <span class="cd-image-label" data-type="modified">После</span>
+                                        <span class="mb2comparison-compare-before-label">после</span>
+
+                                    </div>
+                                    <div class="mb2comparison-compare-handle">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <span class="cd-handle"></span>
-                    </figure>
+                    </div>
                     <div class="result-title">Специальный состав клеящего слоя</div>
                 </li>
                 <li>
-                    <figure class="result-image">
-                        <img src="img/portfolio/result02_up.jpg" alt="">
-                        <span class="cd-image-label" data-type="original">До</span>
+                    <div class="result-image">
+                        <div class="mb2comparison mb2comparison146">
+                            <div class="mb2comparison-compare-wrapper mb2comparison-compare-vertical">
+                                <div class="mb2comparison-compare mb2comparison-compare-container" data-orientation="vertical" data-offset="0.5">
+                                    <img class="mb2comparison-compare-img mb2comparison-compare-before" src="img/portfolio/result02_up.jpg" alt="">
+                                    <img class="mb2comparison-compare-img mb2comparison-compare-after" src="img/portfolio/result02_after.jpg" alt="">
+                                    <div class="mb2comparison-compare-description">
+                                        <span class="mb2comparison-compare-after-label">до</span>
 
-                        <div class="cd-resize-img"> <!-- the resizable image on top -->
-                            <img src="img/portfolio/result02_after.jpg" alt="">
-                            <span class="cd-image-label" data-type="modified">После</span>
+                                        <span class="mb2comparison-compare-before-label">после</span>
+
+                                    </div>
+                                    <div class="mb2comparison-compare-handle">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <span class="cd-handle"></span>
-                    </figure>
+                    </div>
                     <div class="result-title">Защитная антигравийная пленка на автомобиль</div>
                 </li>
                 <li>
-                    <figure class="result-image">
-                        <img src="img/portfolio/result03_up.jpg" alt="">
-                        <span class="cd-image-label" data-type="original">До</span>
+                    <div class="result-image">
+                        <div class="mb2comparison mb2comparison146">
+                            <div class="mb2comparison-compare-wrapper mb2comparison-compare-vertical">
+                                <div class="mb2comparison-compare mb2comparison-compare-container" data-orientation="vertical" data-offset="0.5">
+                                    <img class="mb2comparison-compare-img mb2comparison-compare-before" src="img/portfolio/result03_up.jpg" alt="">
+                                    <img class="mb2comparison-compare-img mb2comparison-compare-after" src="img/portfolio/result03_after.jpg" alt="">
+                                    <div class="mb2comparison-compare-description">
+                                        <span class="mb2comparison-compare-after-label">до</span>
 
-                        <div class="cd-resize-img"> <!-- the resizable image on top -->
-                            <img src="img/portfolio/result03_after.jpg" alt="">
-                            <span class="cd-image-label" data-type="modified">После</span>
+                                        <span class="mb2comparison-compare-before-label">после</span>
+
+                                    </div>
+                                    <div class="mb2comparison-compare-handle">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <span class="cd-handle"></span>
-                    </figure>
+                    </div>
                     <div class="result-title">Это прочная пленка</div>
                 </li>
+
             </ul>
         </div>
     </section>

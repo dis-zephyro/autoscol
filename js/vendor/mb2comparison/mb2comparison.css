@@ -1,0 +1,379 @@
+/**
+ * @package		Mb2 Comparison
+ * @version		1.0.1
+ * @author		Mariusz Boloz (http://mb2extensions.com)
+ * @copyright	Copyright (C) 2015 Mariusz Boloz (http://mb2extensions.com). All rights reserved
+ * @license		Commercial (http://codecanyon.net/licenses)
+**/
+
+
+
+
+/* General styles */
+
+.mb2comparison {
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.mb2comparison *,
+.mb2comparison *:before,
+.mb2comparison *:after
+{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+    box-sizing: content-box;	
+}
+
+.mb2comparison img {
+	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	-o-user-select: none;
+  	user-select: none;
+	box-shadow: #000 0em 0em 0em;	
+}
+
+
+
+/* Comparison container */
+
+.mb2comparison-compare {
+	overflow: hidden;
+  	position: relative;
+  	width: 100%;
+  	margin: 0;
+	-webkit-box-sizing: content-box;
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box;
+	-webkit-user-select: none;
+  	-moz-user-select: none; 
+}
+
+.mb2comparison-compare img {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    display: block;
+}
+
+.mb2comparison-compare-before {
+  	z-index: 2; 
+}
+
+.mb2comparison-compare-after {
+  	z-index: 1; 
+}
+
+
+
+/* Comparison handler */
+
+.mb2comparison-compare-horizontal .mb2comparison-compare-handle:before, 
+.mb2comparison-compare-horizontal .mb2comparison-compare-handle:after, 
+.mb2comparison-compare-vertical .mb2comparison-compare-handle:before, 
+.mb2comparison-compare-vertical .mb2comparison-compare-handle:after {
+  	content: " ";
+ 	display: block;
+  	background: #ee9a1a;
+  	position: absolute;
+  	z-index: 3;
+}
+
+.mb2comparison-compare-horizontal .mb2comparison-compare-handle:before, 
+.mb2comparison-compare-horizontal .mb2comparison-compare-handle:after {
+  	width: 5px;
+  	height: 9999px;
+  	left: 50%;
+  	margin-left: -1px; 
+}
+
+.mb2comparison-compare-vertical .mb2comparison-compare-handle:before, 
+.mb2comparison-compare-vertical .mb2comparison-compare-handle:after {
+  	width: 9999px;
+  	height: 5px;
+  	top: 50%;
+  	margin-top: -1px; 
+}
+
+.mb2comparison-compare-handle {
+  	height: 43px;
+  	width: 43px;
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	margin-left: -21px;
+  	margin-top: -21px;
+  	background: url("../../../img/image-divider-handle.png") 0 0 no-repeat;
+  	z-index: 4;
+  	cursor: pointer; 
+}
+
+.mb2comparison-compare-handle-inner {
+
+}
+
+.mb2comparison-compare-handle-inner:hover {
+
+}
+
+.mb2comparison-compare-horizontal .mb2comparison-compare-handle:before {
+  	bottom: 50%;
+
+}
+
+.mb2comparison-compare-horizontal .mb2comparison-compare-handle:after {
+  	top: 50%;
+  	margin-top: 21px;
+}
+
+.mb2comparison-compare-vertical .mb2comparison-compare-handle:before {
+  	left: 50%;
+  	margin-left: 21px;
+}
+
+.mb2comparison-compare-vertical .mb2comparison-compare-handle:after {
+  	right: 50%;
+  	margin-right: 21px;
+}
+ 
+ 
+ 
+/* Label description */
+
+.mb2comparison-compare-before-label, 
+.mb2comparison-compare-after-label {
+  	position: absolute;
+	z-index: 5;
+	padding: 10px 15px;
+	color: #fff;
+	background-color: rgba(0,0,0,.5);
+}
+
+.mb2comparison-compare-horizontal .mb2comparison-compare-before-label, 
+.mb2comparison-compare-horizontal .mb2comparison-compare-after-label {
+	bottom: 0;	
+}
+
+.mb2comparison-compare-after-label {
+	left: 0;
+}
+
+.mb2comparison-compare-before-label {
+	right: 0;
+	text-align: right;
+}
+
+.mb2comparison-compare-vertical .mb2comparison-compare-after-label {
+	top: 0;
+}
+
+.mb2comparison-compare-vertical .mb2comparison-compare-before-label {
+	bottom: 0;
+}
+
+
+
+/* Slider style */
+
+.mb2comparison-slider {
+	position: relative;	
+}
+
+.mb2comparison-slider a:active,
+.mb2comparison-slider a:focus  {
+	outline: none;
+}
+
+.slides,
+.mb2comparison-slider-control-nav,
+.mb2comparison-slider-direction-nav {
+	margin: 0; 
+	padding: 0; 
+	list-style: none;
+}
+
+.mb2comparison-slider {
+	margin: 0; 
+	padding: 0;
+}
+
+.mb2comparison-slider .slides > li {
+	display: none; 
+	-webkit-backface-visibility: hidden;
+}
+
+.mb2comparison-slider .slides img {
+	display: block;
+}
+
+.flex-pauseplay span {
+	text-transform: capitalize;
+}
+
+
+
+/* Slider control navigation */
+
+.mb2comparison-slider-control-nav {
+	width: 100%;
+	text-align: center;
+	z-index: 2;	
+}
+
+.mb2comparison-slider-control-paging {
+	position: absolute;
+	bottom: 10px;	
+}
+
+.mb2comparison-slider-control-nav li {
+	display: inline-block;
+	line-height: 10px;
+	overflow: hidden;	
+	-webkit-transition: all .15s ease-in-out;
+  	-moz-transition: all .15s ease-in-out;
+  	-o-transition: all .15s ease-in-out;
+  	transition: all .15s ease-in-out;	
+}
+
+.mb2comparison-slider-control-paging li {
+	margin: 0 3px;	
+}
+
+.mb2comparison-slider-control-paging a {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	text-indent: -200px;
+	overflow: hidden;
+	border: solid 2px #fff;
+	cursor: pointer;
+	opacity: .5;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: all .15s ease-in-out;
+  	-moz-transition: all .15s ease-in-out;
+  	-o-transition: all .15s ease-in-out;
+  	transition: all .15s ease-in-out;	
+}
+
+
+.mb2comparison-slider-control-paging a.mb2comparison-slider-active,
+.mb2comparison-slider-control-paging a:hover {
+	opacity: 1;	
+}
+
+
+
+/* Thumbnail navigation */
+
+.mb2comparison-slider-control-thumbs {
+	top: 100%;
+	line-height: 5px;
+	vertical-align: top;	
+}
+
+.mb2comparison-slider-control-nav img {
+	opacity: .5;
+	cursor: pointer;
+	vertical-align: top;
+	-webkit-transition: opacity .15s ease-in-out;
+  	-moz-transition: opacity .15s ease-in-out;
+  	-o-transition: opacity .15s ease-in-out;
+  	transition: opacity .15s ease-in-out;	
+	box-shadow: #000 0em 0em 0em;
+}
+
+.mb2comparison-slider-control-thumbs img.mb2comparison-slider-active {
+	cursor: auto;	
+}
+
+.mb2comparison-slider-control-thumbs li:hover img,
+.mb2comparison-slider-control-thumbs img.mb2comparison-slider-active {
+	opacity: 1;	
+}
+
+
+
+/* Slider direction navigation */
+
+.mb2comparison-slider-direction-nav a {
+	position: absolute;
+	display: block;
+	width: 30px;	
+	height: 30px;
+	top: 10px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	border: solid 2px #fff;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;	
+	opacity: .5;
+	-webkit-transition: all .15s ease-in-out;
+  	-moz-transition: all .15s ease-in-out;
+  	-o-transition: all .15s ease-in-out;
+  	transition: all .15s ease-in-out;
+	z-index:5;	
+}
+
+.mb2comparison-slider-next {
+	left: 46px;	
+}
+
+.mb2comparison-slider-prev {
+	left: 10px;	
+}
+
+.mb2comparison-slider-direction-nav a:hover {
+	color: #fff;	
+	opacity: 1;
+}
+
+.mb2comparison-slider-direction-nav a:focus {
+	color: #fff;	
+}
+
+a.mb2comparison-slider-disabled {
+	opacity: .2;
+	pointer-events: none;
+    cursor: default;
+}
+
+
+
+/* Clearfix for the .slides element */
+
+.slides:after {
+	content: "."; 
+	display: block; 
+	clear: both; 
+	visibility: hidden; 
+	line-height: 0; 
+	height: 0;
+}
+
+html[xmlns] .slides {
+	display: block;
+}
+
+* html .slides {
+	height: 1%;
+}
+
+
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {
+	display: block;
+}
