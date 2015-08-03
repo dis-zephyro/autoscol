@@ -2,10 +2,10 @@
     <div class="container">
         <div class="header-top">
             <a href="/" class="header-logo ir"></a>
-            <div class="header-address">
+            <a href="#" class="header-address">
                 <span>Москва, мкр. Новокосино, ул. Салтыковская, д.53</span>
                 <span>Ежедневно с 9:00 до 20:00</span>
-            </div>
+            </a>
             <span class="header-phone"><span class="code">+7 (985)</span> 222-21-31</span>
             <span class="header-phone"><span class="code">+7 (926)</span>  169-23-13</span>
         </div>

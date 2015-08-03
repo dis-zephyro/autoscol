@@ -36,5 +36,6 @@
 <script src="js/vendor/jquery-ui/jquery-ui.min.js"></script>
 <script src="js/vendor/jquery.fancybox/jquery.fancybox.pack.js"></script>
 <script src="js/vendor/mb2comparison/mb2comparison.js"></script>
+<script src="js/vendor/jquery.form-validator.min.js"></script>
 <script src="js/vendor/slick/slick.min.js"></script>
 <script src="js/main.js"></script>

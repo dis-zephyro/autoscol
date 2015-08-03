@@ -1,4 +1,4 @@
-/* Форма отправки внизу страницы */
+/* Форма отправки внизу страницы
 
 $('.form-request-start .btn').click(function(event){
     event.preventDefault();
@@ -10,7 +10,7 @@ $('.form-request-success .btn').click(function(){
     $('.form-request-success').hide();
     $('.form-request-start').show();
 });
-
+ */
 
 /* Action Slider */
 
@@ -43,6 +43,12 @@ $('.next').click(function(){
 /* Category Tabs */
 
 $('.cat-tabs').tabs();
+
+
+$.validate({
+    form : '.form-request-body'
+});
+
 
 
 // Подключние Яндекс-Карты

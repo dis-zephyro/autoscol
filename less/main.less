@@ -74,11 +74,13 @@ body {
 			top: 8px;
 			color: #444;
 			width: 230px;
+			cursor: pointer;
 			font-size: 14px;
 			line-height: 15px;
 			text-align: right;
 			position: absolute;
 			padding-right: 40px;
+			text-decoration: none;
 
 			&:before {
 				right: 0;
@@ -88,6 +90,10 @@ body {
 				content: " ";
 				position: absolute;
 				background: url("../img/sprite.png") -327px 0 no-repeat;
+			}
+
+			&:hover {
+				text-decoration: underline;
 			}
 		}
 
@@ -372,18 +378,30 @@ body {
 
 		.form-control {
 			width: 100%;
-			border: none;
+			border: 1px solid #fff;
 			outline: none;
 			color: #909297;
 			font-size: 19px;
 			background: #fff;
 			font-weight: 700;
 			line-height: 30px;
-			padding: 5px 20px;
+			padding: 4px 20px;
 			text-align: center;
 			.border-radius(4px);
 			display: inline-block;
 			vertical-align: middle;
+
+			.placeholder(#909297);
+		}
+
+		.has-error {
+			.form-control {
+				background-color: #ffe4e4;
+			}
+		}
+
+		.form-error {
+			display: none;
 		}
 	}
 }
