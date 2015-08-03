@@ -620,7 +620,7 @@ body {
   height: 320px;
   margin-top: -95px;
   padding-top: 90px;
-  background: url("../img/bmw.png") 40px 5px no-repeat;
+  background: url("../img/bmw.png") 50% 5px no-repeat;
 }
 .content-service .service-list li.item1 .service-text {
   padding: 0 20px;
@@ -630,7 +630,7 @@ body {
 .content-service .service-list li.item2 {
   height: 339px;
   padding-top: 55px;
-  background: url("../img/volkswagen.png") right 5px no-repeat;
+  background: url("../img/volkswagen.png") 50% 5px no-repeat;
 }
 .content-service .service-list li.item2 .service-text {
   padding: 0 20px;
@@ -641,7 +641,7 @@ body {
   height: 320px;
   padding-top: 80px;
   margin-top: -50px;
-  background: url("../img/porshe.png") 50px 0 no-repeat;
+  background: url("../img/porshe.png") 50% 0 no-repeat;
 }
 .content-service .service-list li.item3 .service-text {
   padding: 0 20px;
